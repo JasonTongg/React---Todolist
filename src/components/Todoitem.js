@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../components/Button'
+import '../styles/TodoResponsive.css'
 
 export default function Todoitem({text, id, open, openConfirm}) {
 
@@ -33,3 +34,4 @@ const todotext = {
 const buttons = {
     display: "flex",
 }
+

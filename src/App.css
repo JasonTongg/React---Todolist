@@ -4,6 +4,24 @@
   height: 100vh;
 }
 
+@media only screen and (max-width: 1000px){
+  .App{
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .App{
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 650px){
+  .App{
+    width: 95%;
+  }
+}
+
 .logo{
   text-align: center;
   margin-bottom: 1rem;
