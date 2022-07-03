@@ -1,0 +1,25 @@
+.btn{
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+}
+
+.btn:last-of-type{
+    margin-left: 1.5rem;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn-danger{
+    background-color: #ff5454;
+}
+
+.btn-success{
+    background-color: #5aed70;
+}
+
+.btn-primary{
+    background-color: #61DAFB;
+}
